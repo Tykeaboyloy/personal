@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color:#E0EBE8;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+.NavBar{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    position:sticky;
+    z-index: 100;
+}
+.imgg{
+    width: 40%;
+    line-height: 0;
+    display: flex;
+}
+#imggg{
+    width: 13%;
+    border-radius: 50%;
+}
+.navigator{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+}
+.navigator>a{
+    border: none;
+    font-size: 1.5em;
+    background-color: #E0EBE8;
+    text-decoration: none;
+    color: #45b29a;
+}
+a:visited{
+    color: #45b29a;
+}
+.navigator>a:hover{
+    color:#21564b;
+}
+.bodyContainer{
+    width: 100vw;
+    position: relative;
+}
+.body1{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-cloud{
+    background: url("https://web.archive.org/web/20180901170713im_/http://seanhalpin.io/assets/img/ui/cloud.svg");
+    width: 150px;
+    height:45px ;
+    position: absolute;
+    right: 250px;
+    top: 40px;
+}
+.body2{
+    width: 100vw;
+    height: 45vh;
+    text-align: center;
+}
+.body2>img{
+    /* width: 100vw; */
+    max-width: 800px;
+    width: 100vw;
+    margin: auto;
+}
+.left-cloud{
+    background: url("https://web.archive.org/web/20180901170713im_/http://seanhalpin.io/assets/img/ui/cloud.svg");
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    top: 230px;
+    left: 300px;
+}
+.middle-container{
+    text-align: center;
+}
+.bottom-container{
+    text-align: center;
+}
+.profile>img{
+    width: 150px;
+    border-radius: 50%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    vertical-align: baseline;
+}
+.skill-img{
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.skill-img1{
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+}
+hr{
+    border-top: 7px dotted lightgray; width: 6%; margin: 50px auto
+}
+.btn{
+    width: 10%;
+    height: 50px;
+    background-color: #45b29a;
+    margin: auto;
+    font-size: 1.5em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.bottom-container{
+    background-color:#c5ded7;
+    margin: 30px 0 0 0;
+    padding: 20px;
+}
+.footer-link{
+    background-color: #c5ded7;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin:30px;
+}
